@@ -1,0 +1,81 @@
+body{
+	font-size: 16px;
+	color:black;
+	background-color: #ff9966;
+	font-family: 'Georgia',sans-serif;
+	box-sizing: border-box;
+}
+#header-nav{
+	background-color: #ff1a1a;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top:25px;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+.navbar-brand h1{
+	color:#1a001a;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 0;
+}
+#nav-list a{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2em;
+	margin:2px;
+}
+
+	#collapsable-nav {
+		
+		text-align: center;
+	}
+#menu-title{
+		margin-bottom: 20px;
+	}
+.item-box {
+  margin: 20px;
+  background-color: #ffccff
+
+}
+.item-title {
+  margin: 0 0 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.item-details {
+  font-size: .9em;
+  font-style: italic;
+  text-align: center;
+}
+	
+
+@media(max-width: 767px){
+	#dropdown {
+	margin-top: 0;
+	padding-top: 0;
+	}
+	 #nav-list .visible-xs{
+		border:1px solid black;
+		margin-bottom: 1px
+		
+	}
+	#nav-list .visible-xs a:hover{
+	background: #E7E7E7;
+	text-decoration: none;
+}
+}
